@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Speech1stClinic"
 theme = "timer-hugo"
 
+{{.Site.BaseURL}}
+
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Site Menus
