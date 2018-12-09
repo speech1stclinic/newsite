@@ -10,7 +10,7 @@ theme = "timer-hugo"
     # Navbar Menus
     [[menu.nav]]
         name    = "About"
-        url     = "www.speech1stclinic.com/about"
+        url     = "/about"
         weight  = 2
     [[menu.nav]]
         name    = "Service"
@@ -20,10 +20,6 @@ theme = "timer-hugo"
         name    = "Gallery"
         url     = "/gallery"
         weight  = 4
-   # [[menu.nav]] - Hide this item
-    #    name    = "Blog"
-     #   url     = "/blog"
-      #  weight  = 5
 
     [[menu.nav]]
         name    = "Contact"
