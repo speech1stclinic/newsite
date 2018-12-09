@@ -1,0 +1,10 @@
+enable  : true
+galleryImages :
+  - image : images/portfolio/item-1.png
+  - image : images/portfolio/item-2.png
+  - image : images/portfolio/item-3.png
+  - image : images/portfolio/item-4.png
+  - image : images/portfolio/item-5.png
+  - image : images/portfolio/item-6.png
+  - image : images/portfolio/item-7.png
+  
