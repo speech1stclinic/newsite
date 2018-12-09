@@ -10,7 +10,7 @@ theme = "timer-hugo"
     # Navbar Menus
     [[menu.nav]]
         name    = "About"
-        url     = "/about"
+        url     = "www.speech1stclinic.com/about"
         weight  = 2
     [[menu.nav]]
         name    = "Service"
