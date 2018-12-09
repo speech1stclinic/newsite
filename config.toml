@@ -1,4 +1,4 @@
-baseURL = "www.speech1stclinic.com"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Speech1stClinic"
 theme = "timer-hugo"
