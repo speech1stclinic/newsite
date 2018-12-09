@@ -1,0 +1,55 @@
+enable  : true
+title   : SPEECH SERVICES
+subtitle: Our service covers both Pediatric and Adult Speech Services.
+image   : images/team.jpg
+serviceItem :
+  - icon  : ion-ios-paper-outline
+    title : Articulation disorder
+    description: >
+      Errors in speech patterns which are not resolved through development like saying ”tup” for “cup”.
+  
+  - icon  : ion-ios-paper-outline
+    title : Impaired Language
+    description: >
+      Delayed comprehension and/ onset of speech, reduction in the use of expressions to make wants and needsk known, impairments in grammar and meaning.
+  
+  - icon  : ion-ios-paper-outline
+    title : Motor planning disorder
+    description: >
+      Delayed onset of speech development, reduction of variety of vowels and consonants, difficulty stringing together consonants and vowels, irregular pausing, and inconsistent errors.
+  
+  - icon  : ion-ios-paper-outline
+    title : Auditory Processing disorder
+    description: >
+      Difficulty with processing with what one hears i.e.,following directions, sound blending , auditory memory,reading, writing, oral problem solving, rhyming and understanding in noise.
+  
+  - icon  : ion-ios-paper-outline
+    title : Stuttering
+    description: >
+      Decreased fluency of speech with irregular pauses and sound, word or phrases repititions, use of fillers i.e. “ah”, “um”, extra body movements when trying to form words.
+  
+  - icon  : ion-ios-paper-outline
+    title : Feeding disorder
+    description: >
+      Can be caused by sensory motor impaired pattern of movement i.e. over stiffening of mouth,spitting of food, choking or gagging.
+  
+  - icon  : ion-ios-paper-outline
+    title : Voice Disorder
+    description: >
+      Disorders caused by overuse or improper use of voice, illness or hearing impairment that results in changes in pitch, volume and quality of voice.
+  
+  - icon  : ion-ios-paper-outline
+    title : Autism Spectrum Disorder
+    description: >
+      Difficulty with speech language and pragmatic and sensory motor  associated with the disorder.
+  
+  - icon  : ion-ios-paper-outline
+    title : Learning Disorder
+    description: >
+      Language, spelling, reading and writing errors that accompany the disorder.
+  
+  - icon  : ion-ios-paper-outline
+    title : Cleft Lip
+    description: >
+      These are openings/ slits in the upper lip, roof of the mouth or both. It can result in feeding problems, speech problems, hearing problems and frequent ear infections.
+  
