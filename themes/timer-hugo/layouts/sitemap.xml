@@ -1,63 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
--<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-
--<url>
-
-<loc>https://www.speech1stclinic.com/</loc>
-
-<lastmod>2018-12-13T05:12:32+00:00</lastmod>
-
-<priority>1.00</priority>
-
-</url>
-
-
--<url>
-
-<loc>https://www.speech1stclinic.com/about/</loc>
-
-<lastmod>2018-12-13T05:12:32+00:00</lastmod>
-
-<priority>0.80</priority>
-
-</url>
-
-
--<url>
-
-<loc>https://www.speech1stclinic.com/service/</loc>
-
-<lastmod>2018-12-13T05:12:32+00:00</lastmod>
-
-<priority>0.80</priority>
-
-</url>
-
-
--<url>
-
-<loc>https://www.speech1stclinic.com/gallery/</loc>
-
-<lastmod>2018-12-13T05:12:32+00:00</lastmod>
-
-<priority>0.80</priority>
-
-</url>
-
-
--<url>
-
-<loc>https://www.speech1stclinic.com/contact/</loc>
-
-<lastmod>2018-12-13T05:12:32+00:00</lastmod>
-
-<priority>0.80</priority>
-
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range (where .Data.Pages "Section" "!=" "gallery") }}
+    <url>
+      <loc>{{ .Permalink }}</loc>
+      {{ if not .Lastmod.IsZero }}
+      <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+      {{ end }}
+      {{ with .Sitemap.ChangeFreq }}
+      <changefreq>{{ . }}</changefreq>
+      {{ end }}
+      {{ if ge .Sitemap.Priority 0.0 }}
+      <priority>{{ .Sitemap.Priority }}</priority>
+      {{ end }}
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <xhtml:link
+                    rel="alternate"
+                    hreflang="{{ .Lang }}"
+                    href="{{ .Permalink }}"
+                    />
+        {{ end }}
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="{{ .Lang }}"
+                  href="{{ .Permalink }}"
+                  />
+      {{ end }}
+    </url>
+  {{ end }}
 </urlset>
