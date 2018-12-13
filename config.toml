@@ -3,7 +3,11 @@ languageCode = "en-us"
 title = "Speech1stClinic"
 theme = "timer-hugo"
 
-
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+  
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Site Menus
